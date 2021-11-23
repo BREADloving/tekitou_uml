@@ -1,0 +1,25 @@
+package オブジェクト{
+!include object_about.pu
+}
+
+package 職業{
+!include job_about.pu
+}
+
+package 入力{
+!include input_about.pu
+}
+
+package 演出{
+!include effect_about.pu
+}
+
+package オンラインコンテンツ{
+!include network_about.pu
+}
+
+package UI{
+!include UI_about.pu
+}
+
+actor hide 

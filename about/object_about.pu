@@ -1,0 +1,14 @@
+'オブジェクト
+package 生物
+{
+class プレイヤー{}
+class 敵{}
+class NPC{}
+}
+
+package 非生物
+{ 
+class ステージ{}
+class アイテム{}
+class ギミック{} /'宝箱、掲示板'/
+}
