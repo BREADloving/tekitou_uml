@@ -1,13 +1,12 @@
-!include PlayerBase.pu  
+!include IPlayerTransform.pu 
 
 package PlayerPackage
 {
-    class Player
+    abstract Player
     {
         /'変数'/
         - IPlayerStateController stateController
     }
 }
 
-PlayerBase <|-- Player 
-
+IPlayerTransform <|-- Player

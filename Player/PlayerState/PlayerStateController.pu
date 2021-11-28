@@ -1,11 +1,18 @@
-!include PlayerStateControllerBase.pu  
+!include IPlayerStateController.pu  
 
 package PlayerStateControllerPackage
 {
-    class PlayerStateController
+    abstract PlayerStateController
     {
+        -IPlayerState currentState
 
+        - IPlayerState idleState 
+        - IPlayerState jumpState 
+        - IPlayerState runState 
+        - IPlayerState inSkyState 
+
+        - ChangeState(string stateName)
     }
 }
 
-PlayerStateControllerBase <|-- PlayerStateController
+IPlayerStateController <|-- PlayerStateController 

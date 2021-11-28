@@ -1,4 +1,4 @@
-!include PlayerStateControllerBase.pu 
+!include PlayerStateController.pu 
 
 package PlayerStatePackage 
 {
@@ -11,4 +11,5 @@ package PlayerStatePackage
     }
 }
 
-PlayerStateControllerBase "1" o-- "0..*" IPlayerState
+Player -- IPlayerState
+PlayerStateController "1" o-- "0..*" IPlayerState
