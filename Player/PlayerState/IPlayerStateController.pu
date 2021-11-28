@@ -4,7 +4,7 @@ package PlayerStateControllerPackage
 {
     interface IPlayerStateController
     {
-        +Start<T>()
+        +Start()
         +Update()
     }
 }
