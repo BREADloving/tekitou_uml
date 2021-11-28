@@ -1,0 +1,4 @@
+!include IdlePlayerState.pu
+!include RunPlayerState.pu
+!include JumpPlayerState.pu  
+!include InSkyPlayerState.pu  

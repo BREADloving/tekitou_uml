@@ -1,0 +1,12 @@
+!include ../Player.pu 
+
+package PlayerStateControllerPackage
+{
+    interface IPlayerStateController
+    {
+        +Start<T>()
+        +Update()
+    }
+}
+
+Player o-- IPlayerStateController

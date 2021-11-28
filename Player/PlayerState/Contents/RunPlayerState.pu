@@ -1,0 +1,11 @@
+!include ../PlayerStateBase.pu  
+
+package PlayerStatePackage 
+{
+    class RunPlayerState
+    {
+    + Run(IPlayerTranform transform)
+    }
+}
+
+PlayerStateBase <|-- RunPlayerState

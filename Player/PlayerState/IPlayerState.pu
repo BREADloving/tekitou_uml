@@ -1,0 +1,14 @@
+!include PlayerStateControllerBase.pu 
+
+package PlayerStatePackage 
+{
+    interface IPlayerState
+    {
+        + Enter(PlayerBase owner, IPlayerState prevState)
+        + Update(PlayerBase owner)
+        + Exit(PlayerBase owner, IPlayerState nextState)
+        + Setup(string stateName, Action<String> onChangeState)
+    }
+}
+
+PlayerStateControllerBase "1" o-- "0..*" IPlayerState

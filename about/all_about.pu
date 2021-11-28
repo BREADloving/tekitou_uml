@@ -21,5 +21,3 @@ package オンラインコンテンツ{
 package UI{
 !include UI_about.pu
 }
-
-actor hide 

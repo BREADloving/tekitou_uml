@@ -1,0 +1,11 @@
+!include PlayerStateControllerBase.pu  
+
+package PlayerStateControllerPackage
+{
+    class PlayerStateController
+    {
+
+    }
+}
+
+PlayerStateControllerBase <|-- PlayerStateController

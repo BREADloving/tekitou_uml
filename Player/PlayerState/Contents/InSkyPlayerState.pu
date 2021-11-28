@@ -1,0 +1,11 @@
+!include ../PlayerStateBase.pu  
+
+package PlayerStatePackage 
+{
+    class InSkyPlayerState
+    {
+        + CheckGround()
+    }
+}
+
+PlayerStateBase <|-- InSkyPlayerState

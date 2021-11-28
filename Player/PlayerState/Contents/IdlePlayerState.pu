@@ -1,0 +1,16 @@
+@startuml a
+
+!include ../PlayerStateBase.pu  
+!include ../../IPlayerTransform.pu 
+
+package PlayerStatePackage
+{
+    class IdlePlayerState
+    {
+
+    }
+}
+
+PlayerStateBase <|-- IdlePlayerState
+
+@enduml

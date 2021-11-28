@@ -1,0 +1,11 @@
+!include IPlayerTransform.pu 
+
+package PlayerPackage
+{
+    abstract PlayerBase
+    {
+
+    }
+}
+
+IPlayerTransform <|-- PlayerBase

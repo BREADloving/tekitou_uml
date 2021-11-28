@@ -1,0 +1,11 @@
+!include ../PlayerStateBase.pu  
+
+package PlayerStatePackage 
+{
+    class JumpPlayerState
+    {
+        + Jump(IPlayerTransform transform)
+    }
+}
+
+PlayerStateBase <|-- JumpPlayerState

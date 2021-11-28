@@ -1,0 +1,8 @@
+
+package PlayerPackage
+{
+    interface IPlayerTransform
+    {
+        + Transform transform 
+    }
+}

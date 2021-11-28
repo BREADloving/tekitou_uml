@@ -1,0 +1,13 @@
+!include PlayerBase.pu  
+
+package PlayerPackage
+{
+    class Player
+    {
+        /'変数'/
+        - IPlayerStateController stateController
+    }
+}
+
+PlayerBase <|-- Player 
+
