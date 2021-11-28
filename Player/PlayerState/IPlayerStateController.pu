@@ -4,8 +4,8 @@ package PlayerStateControllerPackage
 {
     interface IPlayerStateController
     {
-        +StartState()
-        +UpdateState(Player player)
+        +StartState(Player player)
+        +UpdateState()
     }
 }
 
