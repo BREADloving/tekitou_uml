@@ -4,7 +4,7 @@ package PlayerStatePackage
 {
     class JumpPlayerState
     {
-        + Jump(IPlayerTransform transform)
+        - Jump(IPlayerTransform transform)
     }
 }
 
