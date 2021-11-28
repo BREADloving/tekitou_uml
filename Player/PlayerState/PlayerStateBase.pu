@@ -5,7 +5,7 @@ package PlayerStatePackage
     abstract PlayerStateBase
     {
         - Action<string> onChangeState
-        - string StateName
+        + string StateName
 
         # ChangeState<T>() ここでクラスをstringに変換してコールバックを呼ぶ
     }
