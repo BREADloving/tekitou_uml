@@ -4,9 +4,9 @@ package PlayerStatePackage
 {
     interface IPlayerState
     {
-        + Enter(PlayerBase owner, IPlayerState prevState)
-        + Update(PlayerBase owner)
-        + Exit(PlayerBase owner, IPlayerState nextState)
+        + Enter(Player owner, IPlayerState prevState)
+        + Update(Player owner)
+        + Exit(Player owner, IPlayerState nextState)
         + Setup(string stateName, Action<String> onChangeState)
     }
 }
