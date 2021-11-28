@@ -3,6 +3,6 @@ package PlayerPackage
 {
     interface IPlayerTransform
     {
-        + Transform transform 
+        + Vector2d velocity 
     }
 }
