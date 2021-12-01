@@ -1,0 +1,10 @@
+!include IPlayerColliderController.pu
+!include PlayerColliderController.pu
+!include IPlayerCollider.pu 
+!include PlayerCollider.pu
+!include IColliderInfo.pu 
+
+
+PlayerCollider "1" o-- "1" ColliderInfo : "情報を持つ"
+PlayerColliderController o- PlayerShareCollider : "PlayerColliderをまとめるために持つ"
+PlayerColliderController o- PlayerCollider

@@ -4,7 +4,8 @@ package PlayerStatePackage
 {
     class RunPlayerState
     {
-        - Run(IPlayerTranform transform)
+        - Run(IPlayerTransform transform)
+        - Flip(IPlayerTransform transform)
     }
 }
 

@@ -1,0 +1,17 @@
+
+package PlayerColliderPackage
+{
+    interface IPlayerCollider
+    {
+        + event OnEnterEvent
+        + event OnExitEvent
+        + event OnStayEvent
+    }
+
+    class PlayerShareCollider
+    {
+        + void SetShareTarget(IPlayerCollider shareTarget)
+    }
+    
+    IPlayerCollider <|-- PlayerShareCollider
+}

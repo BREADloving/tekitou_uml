@@ -12,5 +12,5 @@ package PlayerStatePackage
     }
 }
 
-Player -- IPlayerState
+Player -- IPlayerState : "プレイヤーの状態を取得"
 PlayerStateController "1" o-- "0..*" IPlayerState

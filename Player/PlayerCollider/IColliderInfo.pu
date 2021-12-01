@@ -1,0 +1,14 @@
+package PlayerColliderPackage
+{
+    interface IColliderInfo
+    {
+        + string Tag
+    }
+
+    class ColliderInfo
+    {
+        
+    }
+
+    IColliderInfo <|-- ColliderInfo
+}

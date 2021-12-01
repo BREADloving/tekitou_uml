@@ -1,0 +1,8 @@
+package PlayerColliderPackage
+{
+    interface IPlayerColliderController
+    {
+        +IPlayerCollider onFootCollider
+        +IPlayerCollider onBodyCollider
+    }
+}

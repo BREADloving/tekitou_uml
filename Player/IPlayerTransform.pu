@@ -1,8 +1,12 @@
-
 package PlayerPackage
 {
     interface IPlayerTransform
     {
-        + Vector2d velocity 
+        + WrapVector2 velocity 
+        + WrapVector2 position 
+        + WrapVector2 direction
+        + float speed
     }
 }
+
+WrapVector2 -- IPlayerTransform

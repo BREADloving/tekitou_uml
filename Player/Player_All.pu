@@ -1,3 +1,6 @@
+!include PlayerCollider/ALL_PLAYER_COLLIDER.pu 
+
 !include Player.pu 
 
 !include PlayerState/PlayerState_All.pu
+

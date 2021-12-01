@@ -1,0 +1,4 @@
+１．BoxCollider CircleCollider をアタッチ
+２．PlayerColliderをアタッチ
+３．当たり判定用のプレハブとしてプレハブ化する
+４．当たり判定が必要なオブジェクトはプレハブをつけるようにする

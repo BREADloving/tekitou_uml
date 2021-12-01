@@ -1,0 +1,11 @@
+
+package PlayerColliderPackage
+{
+    class PlayerColliderController
+    {
+        -List<PlayerCollider> colliderList 
+    }
+
+    IPlayerColliderController <|-- PlayerColliderController
+
+}

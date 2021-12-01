@@ -1,0 +1,13 @@
+
+package PlayerColliderPackage
+{
+    class PlayerCollider
+    {
+        -Collider2d collider 
+
+        +string Tag
+    }
+
+    IPlayerCollider <|-- PlayerCollider
+}
+

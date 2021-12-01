@@ -1,0 +1,7 @@
+package PlayerPackage
+{
+    interface IPlayerInfo
+    {
+        + PlayerSetting Settings
+    }
+}

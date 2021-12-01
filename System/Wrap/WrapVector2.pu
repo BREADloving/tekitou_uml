@@ -1,0 +1,13 @@
+package Wrap
+{
+    class WrapVector2
+    {
+        + float X
+        + float Y
+
+        + WrapVector2(Func<Vector2> getter, Action<Vector2> setter)
+        + void Set(Vector2 vec)
+    }
+}
+
+Vector2 <-- WrapVector2
