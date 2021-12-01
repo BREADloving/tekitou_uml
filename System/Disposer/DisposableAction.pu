@@ -1,0 +1,31 @@
+
+package DisposerPackage
+{
+    interface IEventDisposer
+    {
+        + IDisposable Disposable
+        + DisposeEvent()
+    }
+
+    class EventDisposer 
+    {
+        + EventDisposer(Action onDisposeEvent)
+    }
+
+    interface IExternalAccessEvent
+    {
+        IEventDisposer SetEvent(Action onEvent);
+    }
+
+    class ExternalAccessEvent
+    {
+        + void Invoke()
+    }
+
+    IDisposable <|-- EventDisposer
+    IEventDisposer <|-- EventDisposer
+
+    IExternalAccessEvent <|-- ExternalAccessEvent
+
+    IEventDisposer - IExternalAccessEvent : 戻り値
+}

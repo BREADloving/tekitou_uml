@@ -1,12 +1,29 @@
 
 package PlayerColliderPackage
 {
+    interface IPlayerCollider
+    {
+        + IColliderInfo ColliderInfo
+        
+        + ExternalAccessEvent OnEnterEvent
+        + ExternalAccessEvent OnExitEvent
+        + ExternalAccessEvent OnStayEvent
+    }
+
     class PlayerCollider
     {
         -Collider2d collider 
 
         +string Tag
     }
+
+    
+    class PlayerShareCollider
+    {
+        + void SetShareTarget(IPlayerCollider shareTarget)
+    }
+    
+    IPlayerCollider <|-- PlayerShareCollider
 
     IPlayerCollider <|-- PlayerCollider
 }

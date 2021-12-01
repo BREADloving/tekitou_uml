@@ -1,0 +1,18 @@
+
+package DisposerPackage
+{
+    interface IDisposable
+    {
+        + Dispose()
+    }
+
+    class Disposer
+    {
+        - List<IDisposable> list 
+
+        + Add(IDisposable dispose)
+        + DisposeList()
+    }
+
+    IDisposable <|-- Disposer
+}
